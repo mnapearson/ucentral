@@ -22,14 +22,13 @@ nav a {
   text-decoration: none;
   background-color: #0c2644;
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 15px;
   border: solid 2px #f68b20;
-  color: #f68b20;
+  color: #e6e6fa;
   font-size: 18px;
 }
 
 nav a:hover {
-  color: #0c2644;
   background-color: #f68b20;
   border: solid 2px #0c2644;
 }
@@ -64,6 +63,7 @@ header h1 {
   padding: 60px 80px;
   cursor: pointer;
   font-size: 30px;
+  margin-top: 3rem;
 }
 
 .btn:hover {
