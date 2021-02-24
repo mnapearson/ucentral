@@ -57,6 +57,19 @@ header h1 {
   font-weight: bold;
 }
 
+.btn {
+  background-color: #0c2644;
+  border-radius: 15px;
+  color: #e6e6fa;
+  padding: 60px 80px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.btn:hover {
+  background-color: #f68b20;
+}
+
 section {
   height: 100vh;
   width: 100vw;
