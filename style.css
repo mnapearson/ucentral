@@ -73,28 +73,36 @@ header h1 {
 section {
   height: 100vh;
   width: 100vw;
-  display: block;
 }
 
 .features {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .text {
   display: flex;
-  margin: 5rem 5rem 0;
+  flex-direction: column;
+  margin: 2rem 5rem 0;
 }
 
 .text h1 {
   font-size: 14px;
+  margin: 0;
 }
 
 .text h2 {
   font-size: 56px;
-  width: 60%;
+  width: 80%;
+}
+
+.text h3 {
+  width: 90%;
+  margin: 0;
+  line-height: 2rem;
+  font-size: 24px;
 }
 
 .features ul {
@@ -108,8 +116,7 @@ section {
 .features li {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 3rem;
+  margin: 3rem 3rem 0 0;
   padding: 1rem;
   background-color: lavender;
   width: 200px;
@@ -119,4 +126,25 @@ section {
 
 .features li:hover {
   border: 2px solid black;
+}
+
+.tech-cards ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem;
+  list-style: none;
+}
+
+.tech-cards li {
+  width: 200px;
+  height: 200px;
+  background-color: lavender;
+  border-radius: 10px;
+  margin: 3rem 3rem 0 0;
+  padding: 1rem;
+}
+
+.tech-cards li {
 }
