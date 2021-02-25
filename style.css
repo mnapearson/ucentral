@@ -72,7 +72,7 @@ header {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background-color: lavender;
+  background-color: #ececfc;
 }
 
 header img {
@@ -325,7 +325,7 @@ section {
   border-radius: 10px;
 }
 
-.features li:hover {
+li:hover {
   border: 2px solid black;
 }
 
@@ -398,4 +398,15 @@ section {
   padding: 2rem;
   grid-column: 2;
   grid-row: 3;
+}
+
+.open-source-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.license img {
+  height: 70vh;
+  width: auto;
 }
