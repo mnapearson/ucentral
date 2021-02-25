@@ -21,5 +21,7 @@ function myFunction() {
 function myFeatures() {
   if (window.pageYOffset >= sticky) {
     features.classList.add("animate");
+  } else {
+    features.classList.remove("animate");
   }
 }
