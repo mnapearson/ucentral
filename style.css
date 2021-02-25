@@ -389,11 +389,13 @@ section {
 }
 
 .step-two {
+  padding: 2rem;
   grid-column: 1;
   grid-row: 2;
 }
 
 .step-three {
+  padding: 2rem;
   grid-column: 2;
   grid-row: 3;
 }
