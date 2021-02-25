@@ -240,8 +240,9 @@ header h1 {
 }
 
 section {
-  height: 100vh;
-  width: 100vw;
+  display: block;
+  height: 100%;
+  width: 100%;
   margin-top: 5rem;
 }
 
@@ -350,4 +351,49 @@ section {
   border-radius: 10px;
   margin: 3rem 3rem 0 0;
   padding: 1rem;
+}
+
+.steps {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  margin: 0 3rem;
+}
+
+.steps h1 {
+  font-size: 36px;
+  text-decoration: underline;
+  letter-spacing: 0.5rem;
+}
+
+.steps h2 {
+  line-height: 2.5rem;
+}
+
+.steps h3 {
+  line-height: 2rem;
+  font-size: 14px;
+}
+
+.iconify {
+  font-size: 128px;
+  padding-left: 2rem;
+}
+
+.step-one {
+  padding: 2rem;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.step-two {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.step-three {
+  grid-column: 2;
+  grid-row: 3;
 }
