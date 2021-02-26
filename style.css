@@ -1,6 +1,8 @@
 body {
   margin: 0 auto;
   font-family: "Libre Franklin", sans-serif;
+  background-color: #edeaf5;
+  transition: 0.3s all;
 }
 
 .nav-hidden {
@@ -326,7 +328,7 @@ section {
 }
 
 li:hover {
-  border: 2px solid black;
+  border: 2px solid #0c2644;
 }
 
 .tech {
@@ -409,4 +411,22 @@ li:hover {
 .license img {
   height: 70vh;
   width: auto;
+}
+
+.download-link ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: rem;
+  list-style: none;
+}
+
+.download-link li {
+  width: 400px;
+  height: 500px;
+  background-color: lavender;
+  border-radius: 10px;
+  margin: 5rem 5rem 0 0;
+  padding: 1rem;
 }

@@ -26,3 +26,17 @@ function myFeatures() {
     features.classList.remove("animate");
   }
 }
+
+let bdy = document.querySelector("body");
+let colors = ["e4e4f0", "#dbdbf2", "#d1d1f2", "#c5c5f1", "#babaf1", "#b4b4f1"];
+
+window.addEventListener("scroll", function () {
+  if (
+    document.documentElement.scrollTop ||
+    window.pageYOffset > window.innerHeight
+  ) {
+    var diff = parseInt(window.pageYOffset - window.innerHeight);
+    var step = parseInt(window.innerHeight * 2);
+    bdy.style.backgroundColor = colors[Math.floor(diff / step)];
+  }
+});
